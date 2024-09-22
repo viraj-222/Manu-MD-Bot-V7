@@ -10,7 +10,7 @@ ALIVE_IMG : process.env.ALIVE_IMG || "https://telegra.ph/file/e3947a665144372a17
 ALIVE_MSG : process.env.ALIVE_MSG || "hey!!!",
 MENU_IMG : process.env.MENU_IMG || "https://telegra.ph/file/e3947a665144372a172aa.jpg",
 MODE : process.env.MODE || "public",    
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 READ_CMD: process.env.READ_CMD || "true",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
